@@ -1,7 +1,7 @@
-Preface
-==========
+TS-7C 7-inch Touch Screen
+============================
 
-.. image:: img/header.png
+.. image:: img/ts-7c_screen.jpg
 
 **Dear Customwers:**
 
@@ -36,14 +36,8 @@ Please read this instruction carefully for reliable and long-term use and the be
 7) No adjustable components for users in the device. For nonprofessionals, do not 
    try to open or repair this product by yourself in case of unwanted damages.
 
-**Free Support**
 
-If you have any **TECHNICAL questions**, add a topic under **FORUM** section on 
-our website and we’ll reply as soon as possible.
-
-For **NON-TECH questions** like order and shipment issues, please send an
-email to **service@sunfounder.com**. You’re also welcomed to share your projects on.
-
+If you have any questions, please send an email to **service@sunfounder.com** and we’ll reply as soon as possible.
 .. toctree::
     :maxdepth: 2
 

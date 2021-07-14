@@ -1,18 +1,18 @@
 Quick Guide
 ==============
 
-**1.Plug the HDMI cable.**
+#. Plug the HDMI cable.
 
-.. image:: img/image2.png
+    .. image:: img/image2.png
 
-**2.Wire up the USB cable.**
+#. Wire up the USB cable.
 
-.. image:: img/image3.png
+    .. image:: img/image3.png
 
-**3.Get the two devices connected to their own corresponding power supplys.**
+#. Get the two devices connected to their own corresponding power supplys.
 
-.. image:: img/image4.png
+    .. image:: img/image4.png
 
-**4. Have a good time!**
+#. Have a good time!
 
-.. image:: img/image5.png
+    .. image:: img/image5.png
