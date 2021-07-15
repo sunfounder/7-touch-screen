@@ -2,6 +2,7 @@ TS-7C 7-inch Touch Screen
 ============================
 
 .. image:: img/ts-7c_screen.jpg
+   :width: 400
 
 **Dear Customwers:**
 
@@ -38,11 +39,12 @@ Please read this instruction carefully for reliable and long-term use and the be
 
 
 If you have any questions, please send an email to **service@sunfounder.com** and we’ll reply as soon as possible.
+
 .. toctree::
     :maxdepth: 2
 
     packing_list
-    install_the_system_to_tf_card
+    install_the_os
     quick_guide
     button_&_port
     fixed

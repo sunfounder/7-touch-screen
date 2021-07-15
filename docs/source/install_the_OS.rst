@@ -1,4 +1,4 @@
-Install the System to TF Card
+Install the OS
 =============================
 
 In this chapter, we firstly learn to write the Raspberry Pi OS to your Micro SD card. 
