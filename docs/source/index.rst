@@ -44,7 +44,7 @@ If you have any questions, please send an email to **service@sunfounder.com** an
     :maxdepth: 2
 
     packing_list
-    install_the_os
+    install_the_rpi_os
     quick_guide
     button_&_port
     fixed
