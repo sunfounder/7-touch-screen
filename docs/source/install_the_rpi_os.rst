@@ -44,16 +44,17 @@ Insert your SD card into the computer or laptop SD card slot.
 
 **Step 4**
 
-In the Raspberry Pi Imager, select the OS that you want to install and the SD card 
-you would like to install it on.
+In the Raspberry Pi Imager, click **CHOOSE OS** -> **Raspberry Pi OS(Legacy)**.
 
-.. image:: img/image24.png
+    .. warning::
 
-.. note::
-    · You will need to be connected to the internet the first time.
-	
-    · That OS will then be stored for future offline use(lastdownload.cache, C:\\Users\\yourname\\AppData\\Local\\Raspberry Pi\\Imager\\cache). So the next time you open the software, it will have the display "Released: date, cached on your computer".
-	  
+      * Please do not install the **Bookworm** version to avoid the **double-click** function and the **virtual keyboard** not working.
+      * You need to install the **Raspberry Pi OS (Legacy)** version - **Debian Bullseye**.
+      * Additionally, for a perfect touch experience, it is recommended to install the **Ubuntu** system.
+
+    .. image:: img/image24.png
+        :align: center
+
 **Step 5**
 
 Select the SD card you are using.
@@ -62,19 +63,24 @@ Select the SD card you are using.
 
 **Step 6**
 
-Press **Ctrl+Shift+X** to open the **Advanced options** page to enable SSH and 
-configure wifi, these 2 items must be set, the others depend on your choice . You 
-can choose to always use this image customization options.
+To open the advanced options page, click the **setting** button (appears after selecting operating system) or press **Ctrl+Shift+X**. Now, set hostname, enable ssh and set the username and password.
 
-.. image:: img/image26.png
+    .. warning::
 
-Then scroll down to complete the wifi configuration and click SAVE.
+        Make sure to note down the ``hostname``, ``username``, and ``password``; they're crucial for later remote access to the Raspberry Pi.
 
-.. note::
-    **wifi country** should be set the two-letter ISO/IEC alpha2 code for the 
-    country in which you are using your Raspberry Pi, please refer to the following link: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements
+    .. image:: img/image26.png
+        :align: center
 
-.. image:: img/image27.png
+
+Then scroll down to complete the wifi configuration and click **SAVE**.
+
+    .. note::
+
+        **wifi country** should be set the two-letter `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ for the country in which you are using your Raspberry Pi, please refer to the following link: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements
+
+    .. image:: img/image27.png
+        :align: center
 
 **Step 7**
 
