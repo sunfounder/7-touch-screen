@@ -1,3 +1,5 @@
+
+
 TS-7C 7-inch Touch Screen
 ============================
 
@@ -9,7 +11,7 @@ TS-7C 7-inch Touch Screen
 Thanks for purchasing SunFounder 7 inch Touchsceen. It uses a premium integrated 
 circuit, which has the advantages of low power consumption, stable performance, 
 no radiation, etc. It is small, easy to use, and secure. The display applies to computer, Raspberry Pi devices, portable display and so on. It is suitable for the Raspberry 
-Pi 3 model B/B+ and 4 Model B, and has the 1024×600 physical resolution. The resolution is adjustable within the range 640×480~1920×1200.
+Pi 3 model B/B+ and 4 Model B, and has the 1024×600 physical resolution. The resolution is adjustable within the range 640×480~1920×1200. Ideal for applications like retro gaming, industrial control, as a secondary monitor, in home automation, for 3D printing control, and as a |link_pc_monitor|.
 
 Please read this instruction carefully for reliable and long-term use and the best audio-visual effects.
 
