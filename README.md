@@ -1,4 +1,4 @@
-# SunFounder 3in1 Kit
+# TS-7C 7-touch-screen
 This repository is for SunFounder TS-7C 7-touch-screen. you can buy it on [our website](https://www.sunfounder.com/), or search sunfounder in Amazon.
 
 Quick Links:
