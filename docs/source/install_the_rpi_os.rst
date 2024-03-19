@@ -1,105 +1,87 @@
-Install the Raspberry Pi OS
-=============================
+.. _install_os:
 
-In this chapter, we firstly learn to write the Raspberry Pi OS to your Micro SD card. 
-You can check the complete tutorial on the official website of the Raspberry Pi: 
-https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up.
-
-.. note::
-    If you have already done it, you can skip this chapter.
+Install the OS
+=======================
 
 **Required Components**
 
-+-------------------------+--------------------------+
-|1 * Micro SD Card        |1 * Personal Computer     |
-+-------------------------+--------------------------+
-|1 * Micro SD Card Reader |                          |
-+-------------------------+--------------------------+
+* Raspberry Pi 5B
+* A Personal Computer
+* A Micro SD card 
 
-**Step 1**
+**Installation Steps**
 
-Raspberry Pi have developed a graphical SD card writing tool that works on Mac 
-OS, Ubuntu 18.04 and Windows, and is the easiest option for most users as it will 
-download the image and install it automatically to the SD card.
+#. Visit the Raspberry Pi software download page at `Raspberry Pi Imager <https://www.raspberrypi.org/software/>`_. Choose the Imager version compatible with your operating system. Download and open the file to initiate installation.
 
-Visit the download page: https://www.raspberrypi.org/software/. Click on the 
-link for the Raspberry Pi Imager that matches your operating system, when the 
-download finishes, click it to launch the installer.
+    .. image:: img/os_install_imager.png
 
-.. image:: img/image22.png
+#. A security prompt may appear during installation, depending on your operating system. For example, Windows might display a warning message. In such cases, select **More info** and then **Run anyway**. Follow the on-screen guidance to complete the installation of the Raspberry Pi Imager.
 
-**Step 2**
+    .. image:: img/os_info.png
 
-When you launch the installer, your operating system may try to block you from 
-running it. For example, on Windows I receive the following message:
+#. Insert your SD card into your computer or laptop's SD card slot.
 
-If this pops up, click on **More info** and then **Run anyway**, then follow the 
-instructions to install the Raspberry Pi Imager.
+#. Launch the Raspberry Pi Imager application by clicking its icon or typing ``rpi-imager`` in your terminal.
 
-.. image:: img/image23.png
+    .. image:: img/os_open_imager.png
 
-**Step 3**
+#. Click **CHOOSE DEVICE** and select your specific Raspberry Pi model from the list.
 
-Insert your SD card into the computer or laptop SD card slot.
+    .. image:: img/os_choose_device.png
 
-**Step 4**
+#. Then click on Choose OS and select an operating system for installation.
 
-In the Raspberry Pi Imager, click **CHOOSE OS** -> **Raspberry Pi OS(Legacy)**.
+    .. image:: img/os_choose_os.png
 
-    .. warning::
-
-      * Please do not install the **Bookworm** version to avoid the **double-click** function and the **virtual keyboard** not working.
-      * You need to install the **Raspberry Pi OS (Legacy)** version - **Debian Bullseye**.
-      * Additionally, for a perfect touch experience, it is recommended to install the **Ubuntu** system.
-
-    .. image:: img/image24.png
-        :align: center
-
-**Step 5**
-
-Select the SD card you are using.
-
-.. image:: img/image25.png
-
-**Step 6**
-
-To open the advanced options page, click the **setting** button (appears after selecting operating system) or press **Ctrl+Shift+X**. Now, set hostname, enable ssh and set the username and password.
-
-    .. warning::
-
-        Make sure to note down the ``hostname``, ``username``, and ``password``; they're crucial for later remote access to the Raspberry Pi.
-
-    .. image:: img/image26.png
-        :align: center
-
-
-Then scroll down to complete the wifi configuration and click **SAVE**.
+#. Click **Choose Storage** and select the appropriate storage device for the installation.
 
     .. note::
 
-        **wifi country** should be set the two-letter `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ for the country in which you are using your Raspberry Pi, please refer to the following link: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements
+        Ensure you select the correct storage device. To avoid confusion, disconnect any additional storage devices if multiple ones are connected.
 
-    .. image:: img/image27.png
+    .. image:: img/os_choose_sd.png
+
+#. Click **NEXT** and then **EDIT SETTINGS** to tailor your OS settings. If you have a monitor for your Raspberry Pi, you can skip the next steps and click 'Yes' to begin the installation. Adjust other settings later on the monitor.
+
+    .. image:: img/os_enter_setting.png
+
+#. Define a **hostname** for your Raspberry Pi.
+
+    .. note::
+
+        The hostname is your Raspberry Pi's network identifier. You can access your Pi using ``<hostname>.local`` or ``<hostname>.lan``.
+
+    .. image:: img/os_set_hostname.png
+
+#. Create a **Username** and **Password** for the Raspberry Pi's administrator account.
+
+    .. note::
+
+        Establishing a unique username and password is vital for securing your Raspberry Pi, which lacks a default password.
+
+    .. image:: img/os_set_username.png
+
+#. Configure the wireless LAN by providing your network's **SSID** and **Password**.
+
+    .. note::
+
+        Set the ``Wireless LAN country`` to the two-letter `ISO/IEC alpha2 code <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements>`_ corresponding to your location.
+
+    .. image:: img/os_set_wifi.png
+
+#. Click **SERVICES** and activate **SSH** for secure, password-based remote access. Remember to save your settings.
+
+    .. image:: img/os_enable_ssh.png
+
+#. Confirm your selected settings by clicking **Yes**.
+
+    .. image:: img/os_click_yes.png
+
+#. If the SD card contains existing data, ensure you back it up to prevent data loss. Proceed by clicking **Yes** if no backup is needed.
+
+    .. image:: img/os_continue.png
+
+#. The OS installation process will commence on the SD card. A confirmation dialog will appear upon completion.
+
+    .. image:: img/os_finish.png
         :align: center
-
-**Step 7**
-
-Click the WRITE button.
-
-.. image:: img/image28.png
-
-**Step 8**
-
-If your SD card currently has any files on it, you may wish to back up these files first 
-to prevent you from permanently losing them. If there is no file to be backed up, 
-click **Yes**.
-
-.. image:: img/image29.png
-
-**Step 9**
-
-After waiting for a period of time, the following window will appear to represent the 
-completion of writing.
-
-.. image:: img/image30.png
-

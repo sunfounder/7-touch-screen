@@ -23,6 +23,9 @@ Pi 3 model B/B+ and 4 Model B, and has the 1024×600 physical resolution. The re
 
 <a id="update"></a>
 ## Update:
+2024-03-19:
+- Update the tutorials of installing the os.
+
 2023-11-24:
 - Add tips about installing the older version of the Bullseye system.
 
