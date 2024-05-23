@@ -69,6 +69,10 @@ locale_dirs = ['locale/']
 
 rst_epilog = """
 
+.. |link_sf_facebook| raw:: html
+
+    <a href="https://bit.ly/4bkstJv" target="_blank">here</a>
+
 .. |link_pc_monitor| raw:: html
 
     <a href="https://www.sunfounder.com/blogs/news/raspberry-pi-system-monitor-for-pc-enhancing-performance-and-remote-monitoring" target="_blank">PC monitoring device</a>
