@@ -14,8 +14,10 @@
 
 
 
-TS-7C 7-inch Touch Screen
-============================
+|link_TS7C_7inch_Touch_Screen|
+==================================
+
+* |link_7inch_Touch_Screen|
 
 .. image:: img/ts-7c_screen.jpg
    :width: 400
