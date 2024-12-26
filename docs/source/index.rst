@@ -91,7 +91,7 @@ The steps are as follows.
     button_&_port
     fixed
     on_screen_settings
-    settings_for_raspberry_pi
+    resolution_orientation
     product_features
     faq
 	
